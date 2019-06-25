@@ -14,7 +14,7 @@ div {
   background-image: url(../img/m-h-night.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: top/cover;
+  background-size: cover;
   height: 600px;
   border-radius: 0px 0% 35% 0%;
   color: white; }
@@ -184,3 +184,5 @@ footer {
       footer .footer-wrap .landing-logo img {
         width: 73px;
         margin: 35px 20px 0px 0px; }
+
+/*# sourceMappingURL=style2.css.map */
