@@ -1,0 +1,48 @@
+$mainClr: white;
+$bodyClr:white;
+$clrFortxt:#21232e;
+$HeadBackground: url(../img/m-h-day.jpg);
+$buttonDay:#699900;
+$line:#14a0c7;
+$gradientDay:#2e5cd4;
+$colorBlock:#21232e;
+$FontMain:'Source Sans Pro',
+sans-serif;
+$FontHead:'Hind',
+sans-serif;
+
+
+
+@mixin logo {
+    .landing-logo {
+        display: flex;
+        max-width: 32%;
+        font-family: $FontHead;
+
+        img {
+            width: 73px;
+            margin: 35px 20px 0px 0px;
+        }
+    }
+
+}
+
+@mixin line {
+    content: '';
+    position: absolute;
+    background: $line;
+    z-index: -1;
+
+}
+
+@mixin Hbckgrnd {
+    background-image: $HeadBackground;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: top/cover;
+}
+$color:(
+    dark:$colorBlock,
+    light:$mainClr,
+    forBlock:$colorBlock,
+);

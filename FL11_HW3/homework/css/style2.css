@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 1920px;
+  font-family: "Fresca", sans-serif;
+  opacity: .9;
+  background-color: #21232e;
+  color: #3b3f50; }
+
+div {
+  box-sizing: border-box; }
+
+.header {
+  background-image: url(../img/m-h-night.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: top/cover;
+  height: 600px;
+  border-radius: 0px 0% 35% 0%;
+  color: white; }
+  .header .header-wrap {
+    max-width: 50%;
+    margin: 0% 15%;
+    box-sizing: border-box; }
+    .header .header-wrap .header_text {
+      line-height: 30px;
+      font-size: 20px;
+      margin-bottom: 40px; }
+    .header .header-wrap .landing-logo {
+      display: flex;
+      max-width: 32%;
+      font-family: "Hind", sans-serif; }
+      .header .header-wrap .landing-logo img {
+        width: 73px;
+        margin: 35px 20px 0px 0px; }
+    .header .header-wrap .header_heading {
+      margin: 30px 0;
+      display: block;
+      max-width: 85%;
+      font-size: 60px;
+      font-weight: bold;
+      z-index: 1;
+      position: relative; }
+      .header .header-wrap .header_heading::before {
+        content: '';
+        position: absolute;
+        background: #ff4e33;
+        z-index: -1;
+        width: 235px;
+        height: 27px;
+        left: 0;
+        top: 80%; }
+
+.section {
+  color: white;
+  max-width: 960px;
+  margin: 0 auto;
+  display: block; }
+
+.section_banner_button, .header_button {
+  height: 50px;
+  width: 150px;
+  color: white;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #e3ac00; }
+  .section_banner_button:hover, .header_button:hover {
+    background-color: #b08500; }
+
+.landing-logo p {
+  font-weight: 400;
+  margin: 30px 20px 0px 0px; }
+  .landing-logo p::first-line {
+    font-size: 30px;
+    font-weight: 600; }
+
+span {
+  display: block;
+  font-size: 14px;
+  margin-left: 8px; }
+
+.section_text {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  margin: 30px auto;
+  position: relative;
+  z-index: 2;
+  color: white; }
+  .section_text::before {
+    content: '';
+    position: absolute;
+    background: #ff4e33;
+    z-index: -1;
+    width: 140px;
+    height: 12px;
+    left: 51%;
+    top: 55%; }
+
+.section_card_heading {
+  display: inline-block;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  position: relative;
+  z-index: 1; }
+  .section_card_heading::before {
+    content: '';
+    position: absolute;
+    background: #ff4e33;
+    z-index: -1;
+    display: inline-block;
+    width: 100%;
+    height: 14px;
+    top: 12px; }
+
+.section_banner_heading {
+  font-size: 24px;
+  font-weight: 600;
+  position: relative;
+  z-index: 1;
+  color: white; }
+  .section_banner_heading::before {
+    content: '';
+    position: absolute;
+    background: #ff4e33;
+    z-index: -1;
+    width: 50px;
+    height: 10px;
+    left: 30%;
+    top: 55%; }
+
+.section_card {
+  background-color: #3b3f50; }
+
+.section_card_img {
+  margin-top: 10px;
+  width: auto; }
+
+.section_card_wrap {
+  color: white;
+  display: flex;
+  justify-content: space-between; }
+
+.section_card {
+  display: block;
+  text-align: center;
+  border-radius: 8px;
+  width: 32%;
+  padding: 12px; }
+
+.section_banner {
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(to right, #e3ac00, #99364d);
+  width: 80%;
+  height: 120px;
+  position: relative;
+  z-index: 1;
+  top: 60px;
+  left: 100px; }
+
+footer {
+  color: white;
+  background-color: #3b3f50; }
+  footer .footer-wrap {
+    padding: 8% 0px 5% 0px;
+    display: flex;
+    margin: 0 auto;
+    max-width: 960px;
+    justify-content: space-between; }
+    footer .footer-wrap .footer_text {
+      display: block;
+      width: 32%; }
+    footer .footer-wrap .footer-cr {
+      padding-top: 4%; }
+    footer .footer-wrap .landing-logo {
+      display: flex;
+      max-width: 32%;
+      font-family: "Hind", sans-serif; }
+      footer .footer-wrap .landing-logo img {
+        width: 73px;
+        margin: 35px 20px 0px 0px; }

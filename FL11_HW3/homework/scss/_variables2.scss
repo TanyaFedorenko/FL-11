@@ -1,0 +1,47 @@
+$mainClr:white;
+$bodyClr:#21232e;
+$clrFortxt:white;
+$HeadBackground: url(../img/m-h-night.jpg);
+$buttonDay:#e3ac00;
+$line:#ff4e33;
+$gradientDay:#99364d;
+$colorBlock:#3b3f50;
+$FontMain:'Fresca', sans-serif;
+$FontHead:'Hind',
+sans-serif;
+
+
+
+@mixin logo {
+    .landing-logo {
+        display: flex;
+        max-width: 32%;
+        font-family: $FontHead;
+
+        img {
+            width: 73px;
+            margin: 35px 20px 0px 0px;
+        }
+    }
+
+}
+
+@mixin line {
+    content: '';
+    position: absolute;
+    background: $line;
+    z-index: -1;
+
+}
+
+@mixin Hbckgrnd {
+    background-image: $HeadBackground;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: top/cover;
+}
+$color:(
+    dark:$colorBlock,
+    light:$mainClr,
+    forBlock:$colorBlock,
+);
