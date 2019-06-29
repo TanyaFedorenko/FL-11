@@ -1,0 +1,297 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    min-width: 900px;
+    width: 100%;
+    font-size: 1.2vw;
+}
+
+div,
+header,
+section {
+    box-sizing: border-box;
+}
+
+header {
+    color: white;
+    background-image: url(../img/sample2.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 3%;
+position: relative;
+}
+
+header::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: -40%;
+    top: 94%;
+    border: 140vw solid transparent;
+    border-top: 15.5vw solid black;
+    border-right: 5vw solid black;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    justify-content: space-between;
+}
+
+header a {
+    color: white;
+}
+
+li {
+    list-style-type: none;
+}
+
+.logo_icon {
+    text-transform: uppercase;
+    font-size: 1.8vw;
+}
+
+.logo_menu li {
+    margin-left: 8vw;
+}
+
+.title {
+    margin-top: 6%;
+    text-align: center;
+}
+
+.title_name {
+    letter-spacing: .2em;
+    margin: 8% 0% 0%;
+    font-size: 4vw;
+}
+
+.title_name span {
+    font-size: 8vw;
+}
+.menu li {
+
+    margin: 10% 0% 5%;
+    display: block;
+    width: 25%;
+    border: .2vw solid white;
+    text-align: center;
+    padding: 1.2vw 0vw;
+
+}
+
+.menu {
+    justify-content: space-evenly;
+
+
+}
+
+ul {
+    margin: 0;
+}
+
+
+.main_text p {
+    width: 50%;
+    display: block;
+
+
+}
+
+.frstright p {color: white;
+    margin-left: auto;
+}
+
+.gradient {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 12;
+   
+
+}
+.clr {
+    background-color: #f3f3f3;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+    padding: 2.4vw;
+
+    font-size: 2vw;
+    font-weight: 300;
+}
+
+
+.main_about_img {
+    background: url("../img/sample-1.jpg") no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: auto;
+    align-items: stretch;
+}
+
+
+.main_about_txt {
+    width: 50%;
+    text-align: center;
+}
+
+.main_about_img_2 {
+    background: url("../img/sample-2.jpg") no-repeat;
+    background-size: 100%;
+    width: 50%;
+    height: auto;
+    align-items: stretch;
+    margin-bottom: 7vh;
+
+}
+
+.main_about p {
+    margin: 3vw;
+
+}
+
+.main_about {
+    margin-bottom: 6vh;
+}
+
+.img_country {
+    width: 40%;
+    height: 25vw;
+    margin-bottom: 7vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+
+
+}
+
+.frst_country {
+    background: url(../img/news-list-1.jpg) no-repeat;
+    background-size: cover;
+}
+
+.scnd_country {
+    background: url(../img/news-list-2.jpg) no-repeat;
+    background-size: cover;
+    margin: 0vw 4vw;
+}
+
+.thrd_country {
+    background: url(../img/news-list-3.jpg) no-repeat;
+    background-size: cover;
+    margin-right: 4vw;
+}
+
+.frth_country {
+    background: url(../img/news-list-4.jpg) no-repeat;
+    background-size: cover;
+}
+
+.btn_img {
+    border: none;
+    color: white;
+    background-color: #097774;
+    opacity: .8;
+    width: 17vw;
+    height: 3vw;
+    font-size: 1.2vw;
+}
+
+.rews {
+    display: block;
+    width: 25vw;
+    margin: 0 auto;
+    opacity: 1;
+    margin-bottom: 3vw;
+}
+
+.count_like {
+    margin-left: auto;
+    margin-right: 2vw;
+
+}
+
+.count_like p {
+    display: inline-block;
+    border: .1vw solid white;
+    color: white;
+}
+
+.date_container {
+    margin-right: auto;
+    margin-left: 2vw;
+}
+
+.btn_container,
+.count_like {
+    height: 45%;
+}
+
+.about_like {
+    text-align: right;
+
+}
+
+.about_like p {
+    margin: 1.4vw 0vw;
+
+}
+
+.footer_text {
+    padding-top: 5vh;
+}
+
+.footer_form h2 {
+    margin-left: auto;
+    padding: 1vw 2vw 3vw;
+
+}
+
+.footer_form input {
+    color: black;
+    border: 1px solid black;
+    width: 15vw;
+    height: 6vh;
+    margin: .1vw 2vw;
+    background-color: #f3f3f3;
+    font-size: 1.2vw;
+}
+
+.subscrb {
+    width: 10vw;
+
+}
+
+.ftr_nav {
+    padding-top: 1.5vh;
+    margin-left: auto
+}
+
+.ftr_nav a {
+    color: #000000;
+    margin-left: 2vw;
+}
+
+.name {color:#9E9E9E;
+
+  }
