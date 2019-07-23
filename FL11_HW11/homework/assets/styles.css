@@ -1,0 +1,55 @@
+
+#root {
+    color: skyblue;
+}
+
+#root {
+    margin: 0 auto;
+    width: 80%;
+}
+
+h1 {
+    text-align: center;
+}
+
+#add {
+    height: 70px;
+    width: 90%;
+    border: 2px solid skyblue;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+
+}
+
+input::-webkit-input-placeholder {
+    color: darkblue;
+}
+
+button {
+    background-color: white;
+    width: 0px;
+    height: 0px;
+    border: none;
+}
+
+#add_btn {
+    margin-left: 20px;
+    padding-top: 8px;
+}
+
+#i_add {
+    font-size: 60px;
+    color: gray;
+
+}
+
+.root_container {
+    display: flex;
+    border-bottom: 3px solid skyblue;
+}
+
+#i_todo {
+    color: skyblue;
+    font-size: 30px;
+}
